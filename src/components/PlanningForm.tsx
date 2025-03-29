@@ -91,7 +91,6 @@ const PlanningForm: React.FC = () => {
       setIsLoading(false);
     }
   };
-
   const handleLocationPreferenceChange = (location: string) => {
     setFormData(prev => ({
       ...prev,
